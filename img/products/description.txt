@@ -1,0 +1,65 @@
+MEN:-
+
+Pro_1:- 
+Heading:- CONTRAST COLLAR OVERSIZED POLO SHIRT
+Description:- Oversize polo shirt. Lapel collar with front button closure. Short sleeves. Contrasting jacquard detail at back. Contrast trim.
+
+Pro_2:-
+Heading:- COTTON - LINEN BLEND KNIT POLO
+Description:- Open knit structured polo shirt. Lapel collar with front button closure. Short sleeves. Rib trim.
+
+Pro_3:-
+Heading:- LIMITED EDITION BELTED PANTS
+Description:- Cropped fit pants made of cotton and linen blend fabric. Waistband with double front pleating detail and adjustable waist with self-belt. Side pockets and buttoned back welt pockets. Front zip and hidden metal hook closure.
+
+Pro_4:-
+Heading:- SLIM FIT JEANS
+Description:- Slim fit jeans. Five pockets. Washed effect. Front zip and button closure.
+
+Pro_5:-
+Heading:-ZARA FOR HIM RED EDITION EAU DE PARFUM 100 ML
+Description:- Oriental eau de parfum. Fragrance pyramid includes notes of orange, amber and evernyl. A warm, elegant, and bright fragrance.
+
+WOMEN:-
+
+Pro_1:-
+Heading:- SATIN EFFECT MIDI DRESS
+Description:- V-neck dress with wide straps that cross at back. Fitted waist. Side hidden in-seam zip closure.
+
+Pro_2:-
+Heading:- FLOWY PLEATED DRESS
+Description:- Midi dress with flowy neckline and short sleeves. Side pleats.
+
+Pro_3:-
+Heading:- EMBROIDERED LINEN BLEND SKIRT ZW COLLECTION
+Description:- Midi skirt made with linen fabric. Mid waist and adjustable elastic drawstring waistband. Tonal embroidered eyelet detail.
+
+Pro_4:-
+Heading:- BEADED SHORT SKIRT ZW COLLECTION
+Description:- Mini skirt with a high waist made of 100% viscose. Embroidered detail with bead appliqués. Interior lining. Hidden in-seam zip closure.
+
+Pro_5:-
+Heading:- ZARA WONDER ROSE EAU DE TOILETTE 180 ML
+Description:- In this fragrance you’ll experience all the adventure of a fruity cocktail made up of peach, red fruity notes, and a tutti frutti accord, which gives it a special bright attraction.
+
+Accessories:-
+
+Pro_1:-
+Heading:- RAISED FLOWER EARRINGS
+Description:- Metal earrings with raised flower-shaped charms. Butterfly closure.
+
+Pro_2:-
+Heading:- 3-PACK OF CHARM NECKLACES
+Description:- Pack of three different length metal necklaces with charms in different shapes, materials, and sizes. Lobster clasp closure.
+
+Pro_3:-
+Heading:- IRREGULAR PEARL NECKLACE
+Description:- Necklace made of irregular cultured pearls.
+
+Pro_4:-
+Heading:- OVAL SUNGLASSES
+Description:- Sunglasses with oval acetate frames in tortoiseshell effect. Polarized lenses. Case included.
+
+Pro_5:-
+Heading:- STRAPPY FAUX PATENT LEATHER SANDALS
+Description:- Heeled faux patent leather sandals. Front strap. Buckled ankle strap closure.

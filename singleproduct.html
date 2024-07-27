@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Bloom: Online Fashion and Lifestyle</title>
+    <style>
+      .single-pro-image {
+          position: relative;
+          text-align: center; 
+      }
+      .small-img-group {
+          display: flex;
+          justify-content: center; 
+          margin: 0 auto; 
+          margin-top: 10px;
+          width: 50%; 
+      }
+      .small-img {
+          margin-right: 10px;
+          cursor: pointer;
+      }
+      .small-img img {
+          width: 80px; 
+          height: 80px; 
+          border: 2px solid #ddd;
+          border-radius: 4px;
+          object-fit: cover;
+      }
+      .small-img img:hover {
+          border-color: #333;
+      }
+      /* Container for products */
+      .pro-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Adjust the gap between products as needed */
+            justify-content: space-between;
+        }
+
+        /* Each product */
+        .pro {
+            flex: 1 1 calc(18% - 20px); /* Adjust the percentage to make products narrower */
+            box-sizing: border-box;
+            padding: 10px; /* Adjust padding as needed */
+            background-color: #f9f9f9; /* Optional: background color */
+            border: 1px solid #ddd; /* Optional: border */
+            text-align: center; /* Center the text inside product div */
+        }
+
+        /* Image container to maintain aspect ratio */
+        .pro a {
+            display: block;
+            width: 100%;
+            height: 180px; /* Increase height as needed */
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Image inside each product */
+        .pro img.pro-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Ensure the whole image is displayed without cropping */
+        }
+
+        /* Description inside each product */
+        .pro .des {
+            margin-top: 10px; /* Space between image and description */
+        }
+
+        /* Shopping cart icon */
+        .pro .fa-shopping-cart {
+            margin-top: 10px; /* Space between description and icon */
+            cursor: pointer; /* Pointer cursor on hover */
+        }
+
+        /* Adjustments for different screen sizes */
+        @media (max-width: 1200px) {
+            .pro {
+                flex: 1 1 calc(25% - 20px); /* 4 products per row for medium screens */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .pro {
+                flex: 1 1 calc(33.33% - 20px); /* 3 products per row for small screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .pro {
+                flex: 1 1 calc(50% - 20px); /* 2 products per row for extra small screens */
+            }
+        }
+
+    </style>
+  
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <a href="index.html"><img src="img/logo.png" class="logo" alt="main logo"> </a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html"  class="active">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li id="main-bag"><a href="cart.html"><img src="img/cartIcon.png" class="cartIcon" alt="Bag Icon"></a></li>
+            <a href="#" id="close"><i class="fa fa-times"></i></a>
+        </ul>
+        <div id="mobile">
+          <span id="mobile-cart"><a href="cart.html"><img src="img/cartIcon.png" class="cartIcon" alt="Bag Icon"></a></span>
+          <i id="bar" class="fa fa-outdent" style="font-size:36px";></i>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="productdetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="" width="50%" id="mainImg" alt="Main Image">
+        <div class="small-img-group">
+            <!-- Sub-images will be added dynamically here -->
+        </div>
+    </div>
+    <div class="single-pro-details">
+        <!-- Product details will be dynamically added here -->
+    </div>
+</section>
+
+<section id="product1" class="section-p1">
+  <h2>Featured Products</h2>
+  <p>Winter Collection New Models.</p>
+  <div id="productContainer" class="pro-container"></div>
+</section>
+
+  <!-- newsletter section -->
+  <section id="newsletter" class="section-p1 section-m1" >
+    <div class="newstext">
+      <h2>Sign up Newletters</h2>
+      <p>Get E-mail updates for latest offers and promotions !!!</p>
+    </div>
+    <div class="form">
+      <input type="email" placeholder="enter your email address">
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="section-p1">
+    <div class="footer-div">
+    <div class="col">
+      <img src="img/logo.png" class="logo" alt="main logo">
+      <h4>Contact Us</h4>
+      <p><strong>Address: </strong>265 Yorkland Blvd #400, North York, ON M2J 1S5</p>
+      <p> <a href="tel:+14378788248"><strong>Phone: </strong>+1 4378788248</p></a>
+      <p> <a href="mailto:nishardivakar@gmail.com"><strong>Email Us: </strong>nishardivakar@gmail.com</p></a>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-pinterest"></i>
+          <i class="fa fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="about.html">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & COnditions</a>
+      <a href="contact.html">Contact us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="cart.html">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track Order</a>
+      <a href="contact.html">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <a href="#">From <b>App Store</b> or <b>Google Playstore</b></a>
+      <div class="pay-icons">
+        <img src="img/pay/app.png" alt="Apple Store Icon">
+        <img src="img/pay/play.png" alt="Google Playstore icon">
+      </div>
+      <p>Secured Payment Gateway</p>
+      <img src="img/pay/pay.png" alt="pay option image">
+    </div>
+  </div>
+    <div class="copyright">
+      <p>&copy 2023. Bloom: Online Fashion and Lifestyle - All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
