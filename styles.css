@@ -220,13 +220,14 @@ body{
     box-sizing: border-box;
     padding: 10px; /* Padding inside each product */
     background-color: #f9f9f9; /* Optional: background color */
+    overflow: hidden; /* Ensure content doesn’t overflow the container */
 }
 
 #product1 .pro img {
     width: 100%;
-    height: auto; /* Ensure image maintains aspect ratio */
-    max-height: 224px; /* Set a max-height to control the image size */
-    object-fit: cover; /* Ensure the image covers the area without stretching */
+    height: auto; /* Maintain aspect ratio of image */
+    max-height: 224px; /* Optional: Set max-height to control image size */
+    object-fit: contain; /* Ensure the whole image is visible */
     border-radius: 20px; /* Maintain border radius on the image */
     margin-bottom: 10px; /* Space below the image */
 }
@@ -277,7 +278,6 @@ body{
     bottom: 20px;
     right: 10px;
 }
-
 
 /* Banner*/
 #banner{
